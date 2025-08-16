@@ -676,7 +676,7 @@ def execute_reddit_operation(
 
 def main():
     """Main entry point for the Reddit MCP server."""
-    mcp.run()
+    mcp.run(transport="sse")
 
 
 if __name__ == "__main__":
